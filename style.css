@@ -131,5 +131,9 @@ span{
     .eqnInput{
         margin: 20px 0px;
     }
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
 
