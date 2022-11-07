@@ -1,0 +1,59 @@
+// backup files
+
+<div class="eqnContainer"> <!--contain our equation -->
+                    <div class="matContainer">
+                        <div class="top-block"></div>
+                        <div class="bottom-block"></div>
+                        <table>
+                            <tr>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                    </div>
+                    x
+
+                    <div class="matContainer">
+                        <div class="top-block"></div>
+                        <div class="bottom-block"></div>
+                        <table>
+                            <tr>
+                                <td>x</td>
+                            </tr>
+                            <tr>
+                                <td>y</td>
+                            </tr>
+                            <tr>
+                                <td>z</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    =
+                    <div class="matContainer">
+                        <div class="top-block"></div>
+                        <div class="bottom-block"></div>
+                        <table>
+                            <tr>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>

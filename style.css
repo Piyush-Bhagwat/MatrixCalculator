@@ -1,0 +1,119 @@
+body{
+    background-color: #251B37;
+    color: #FFECEF;
+    text-align: center;
+}
+
+h1{
+    font-family: "roboto", sans-serif;
+    font-size: 6em;
+    font-weight: 900;
+
+}
+
+.title{
+    background-color: #372948;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.input{
+    padding: 1.5%;
+}
+
+.eqn{
+    padding: 2%;
+}
+
+input{
+    width: 30px;
+    margin: 0% 1%;
+    border-radius: 5px;
+    border: none;
+
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.col-6{
+    text-align: center;
+}
+
+/* table style */
+
+table{
+    display: inline-block;
+}
+
+td{
+    padding: 6px 15px;
+}
+
+span{
+    display: inline-block;
+    transform: scale(1.3, 5);
+    transform-origin: bottom;
+}
+
+.matContainer{
+    position: relative;
+    display: inline-block;
+    border: 3px solid #FFECEF;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.bl-light{
+    background-color: #372948;
+}
+.bl-dark{
+    background-color: #251B37;
+}
+
+.top-block{
+
+    position: absolute;
+    top: -3px;
+    left: 4px;
+    right: 4px;
+    height: 3px;
+}
+.bottom-block{
+
+    position: absolute;
+    bottom: -3px;
+    left: 4px;
+    right: 4px;
+    height: 3px;
+}
+
+.eqnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.solveBtn{
+    margin: 1%;
+    padding: 0.2% 2%;
+    border-radius: 10px;
+    border: none;
+
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+/* solution */
+
+.solution{
+    text-align: center;
+    background-color: #372948;
+    padding: 1% 3%;
+    margin: 1% 5%;
+    border-radius: 12px;
+    border: 2px solid #FFECEF;
+}
+
