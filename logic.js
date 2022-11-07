@@ -195,12 +195,20 @@ function removeZero(c){ //To remove 0 from diagonal ele
     error();
 }
 
+function reset(){
+    finalAnsArealEL.html("");
+    ansEl.html("");
+    solunAreaEl.html("");
+
+}
+
 function solve(){ //Main driver func to solve the matrix
     if(!isFilled()){
         alert("Pura to Likh le");
         return;
     }
     read();
+    reset();
     finalAnsArealEL.append(display("dark"));
 
     for(let i=0; i<3; i++){
