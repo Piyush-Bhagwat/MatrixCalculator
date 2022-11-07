@@ -203,6 +203,9 @@ function reset(){
 }
 
 function solve(){ //Main driver func to solve the matrix
+    $(".solveBtn").addClass("btn-clicked");
+    setTimeout(function (){$(".solveBtn").removeClass("btn-clicked")}, 150);
+    
     if(!isFilled()){
         alert("Pura to Likh le");
         return;
